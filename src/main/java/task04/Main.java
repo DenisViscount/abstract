@@ -2,9 +2,9 @@ package task04;
 
 public class Main {
     public static void main(String[] args) {
-        Bmw bmw = new Bmw("BMW",200,0.1,70);
-        Mercedes mercedes = new Mercedes("Mercedes",150,0.15,60);
-        Kia kia = new Kia("Kia",100,0.12,20);
+        Bmw bmw = new Bmw("BMW",180,0.4,70);
+        Mercedes mercedes = new Mercedes("Mercedes",150,0.3,60);
+        Kia kia = new Kia("Kia",100,0.2,40);
         Lada lada = new Lada("Lada",90,0.1,50);
         int distance = 1000;
 

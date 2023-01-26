@@ -1,4 +1,4 @@
-package tasc03;
+package task03;
 
 public class HRDirector extends Director {
     public HRDirector(String name, int age, int workExperience) {

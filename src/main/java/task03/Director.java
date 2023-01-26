@@ -1,4 +1,4 @@
-package tasc03;
+package task03;
 
 public abstract class Director {
     private String name;

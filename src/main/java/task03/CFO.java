@@ -1,4 +1,4 @@
-package tasc03;
+package task03;
 
 public class CFO extends Director {
     public CFO(String name, int age, int workExperience) {
