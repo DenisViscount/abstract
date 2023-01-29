@@ -30,8 +30,6 @@ public class Controller implements Producer {
             System.out.println("Invalid input");
         }
 
-
-
     }
 
     private void randomNumber(){
