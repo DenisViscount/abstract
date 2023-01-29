@@ -28,7 +28,6 @@ public  class Car {
             double randomProbability = random.nextDouble();
             if (randomProbability <= breakageProbability) {
 
-                //System.out.println(model + " in repair");
                 continue;
             }
             if(fuelAmount < fuelConsumptionPerStep ){
