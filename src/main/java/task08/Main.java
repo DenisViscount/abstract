@@ -2,12 +2,12 @@ package task08;
 
 public class Main {
     public static void main(String[] args) {
-        Controller controller = new Controller(1);
-        Controller controller1 = new Controller(0);
-        Controller controller2 = new Controller(3);
-        controller2.produce();
-        controller.produce();
-        controller1.produce();
+        NumberProducer numberProducer = new NumberProducer(1);
+        NumberProducer numberProducer1 = new NumberProducer(0);
+        NumberProducer numberProducer2 = new NumberProducer(3);
+        numberProducer2.produce();
+        numberProducer.produce();
+        numberProducer1.produce();
 
     }
 

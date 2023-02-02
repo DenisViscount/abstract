@@ -1,8 +1,8 @@
 package task06;
 
 public interface Controller {
-    void increaseSpeed();
-    void slowDown();
-    void flightAngleChange();
+    void increaseSpeed(double speedChange);
+    void slowDown(double speedChange);
+    void flightAngleChange(double angleChange);
 
 }

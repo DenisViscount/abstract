@@ -11,6 +11,8 @@ public class Main {
         System.out.println("square circle = " + square);
         double diagonal = circle.diagonal();
         System.out.println("diagonal circle = " + diagonal);
+        double radius = circle.getRadius();
+        System.out.println("radius circle = " + radius);
 
     }
 }

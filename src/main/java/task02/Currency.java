@@ -2,7 +2,7 @@ package task02;
 
 public abstract class Currency {
     private double price;
-    public double convertToRubles;
+
 
     public Currency(double price) {
         this.price = price;
@@ -12,9 +12,7 @@ public abstract class Currency {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
+   
 
-    public abstract double currencyExchange(double convertToRubles);
+    public abstract double currencyExchange(double transferAmount);
 }

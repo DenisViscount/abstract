@@ -15,7 +15,7 @@ public abstract class  Figure {
     public abstract double perimeter();
     public abstract double square();
     public abstract String color();
-    public abstract double diagonal();
+
 
 
 

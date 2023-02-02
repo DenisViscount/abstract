@@ -4,12 +4,12 @@ public class Human implements Walkable, Jumpable {
 
 
     public void jump() {
-        System.out.println("I'm jumped to the top: " + height);
+        System.out.println("I'm jumped to the top: " + Jumpable.HEIGHT);
 
     }
 
     public void walk() {
-        System.out.println("I'm walked with speed = " + speed);
+        System.out.println("I'm walked with speed = " + Walkable.SPEED);
 
     }
 }
