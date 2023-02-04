@@ -1,6 +1,6 @@
 package task06;
 
-public class Spaceship implements Controller  {
+public class Spaceship implements ControlPanel {
     int speed;
     int flightAngle;
     public void increaseSpeed(double speedChange) {
