@@ -4,7 +4,7 @@ import java.util.Random;
 
 public  class Car {
     static final int INITIAL_FUEL_AMOUNT = 150;
-    static final int CONSUMPTION_PER = 100;
+    static final int CONSUMPTION_DISTANCE = 100;
     private double fuelAmount;
     private String model;
     private int speed;
@@ -20,7 +20,7 @@ public  class Car {
     }
 
     public int drive(int distance){
-        double fuelConsumptionPerStep =  (speed * fuelConsumption)/ CONSUMPTION_PER;
+        double fuelConsumptionPerStep =  (speed * fuelConsumption)/ CONSUMPTION_DISTANCE;
         int steps = 0;
         Random random = new Random();
         while(distance > 0) {

@@ -24,7 +24,7 @@ public class Square extends Figure {
         return getColor();
     }
 
-    @Override
+
     public double diagonal() {
         return Math.sqrt(2) * side;
     }

@@ -1,7 +1,7 @@
 package task03;
 
-public class CFO extends Director {
-    public CFO(String name, int age, int workExperience) {
+public class FinancialDirector extends Director {
+    public FinancialDirector(String name, int age, int workExperience) {
         super(name, age, workExperience);
     }
 
@@ -9,7 +9,7 @@ public class CFO extends Director {
     public void makeReport() {
         System.out.println("Report done");
     }
-    public void PrepareFinancialPlan(){
+    public void prepareFinancialPlan(){
         System.out.println("Financial plan ready");
     }
 }

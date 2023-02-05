@@ -1,17 +1,19 @@
 package task06;
 
-public class Spaceship implements Controller  {
-    public void increaseSpeed() {
-        System.out.println("Speed increased");
+public class Spaceship implements ControlPanel {
+    int speed;
+    int flightAngle;
+    public void increaseSpeed(double speedChange) {
+        System.out.println("Speed increased by: " + speed + speedChange );
     }
 
-    public void slowDown() {
-        System.out.println("Speed slow down");
+    public void slowDown(double speedChange) {
+        System.out.println("Speed slow down by: " + speedChange);
 
     }
 
-    public void flightAngleChange() {
-        System.out.println("Flight angle changed");
+    public void flightAngleChange(double angleChange) {
+        System.out.println("Flight angle changed by: " + angleChange);
 
     }
 }

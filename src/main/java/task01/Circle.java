@@ -6,6 +6,9 @@ public class Circle extends Figure {
         super(color);
         this.radius = radius;
     }
+    public double getRadius(){
+        return radius;
+    }
 
     @Override
     public double perimeter() {
@@ -14,7 +17,7 @@ public class Circle extends Figure {
 
     @Override
     public double square() {
-        return Math.PI * radius*radius;
+        return Math.PI * radius * radius;
     }
 
     @Override
@@ -23,7 +26,7 @@ public class Circle extends Figure {
         return getColor();
     }
 
-    @Override
+
     public double diagonal() {
         return 2 * radius;
     }

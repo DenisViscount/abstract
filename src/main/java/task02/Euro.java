@@ -8,7 +8,7 @@ public class Euro extends Currency {
     }
 
     @Override
-    public double currencyExchange(double convertToRubles) {
-        return convertToRubles * getPrice();
+    public double currencyExchange(double transferAmount) {
+        return transferAmount * getPrice();
     }
 }
