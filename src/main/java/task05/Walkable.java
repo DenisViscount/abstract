@@ -1,7 +1,7 @@
 package task05;
 
 public interface Walkable {
-     int SPEED = 5;
+     int DEFAULT_HEIGHT = 6;
     void walk();
 
 
