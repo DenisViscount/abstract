@@ -2,5 +2,5 @@ package task05;
 
 public abstract class Figure {
    public abstract double   perimeter();
-    abstract double square();
+    public abstract double square();
 }

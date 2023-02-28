@@ -18,7 +18,7 @@ public class Triangle extends Figure{
     }
 
     @Override
-    double square() {
+    public double square() {
        double p = perimeter()/2;
        return Math.sqrt(p*(p-side1)*(p-side2)*(p-side3));
 

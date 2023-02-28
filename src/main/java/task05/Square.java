@@ -13,7 +13,7 @@ public class Square extends Figure{
     }
 
     @Override
-    double square() {
+    public double square() {
         return side * side;
     }
 }

@@ -5,10 +5,16 @@ public class Main {
         Cat cat = new Cat();
         Pet dog = new Dog();
         Fish fish = new Fish();
-        Human human = new Human();
-        human.pat(cat);
-        human.pat(dog);
-        human.pat(fish);
+
+        petVoice(cat);
+        petVoice(dog);
+        petVoice(fish);
+
+
+    }
+    public static void petVoice(Pet pet){
+        pet.say();
+
 
     }
 }
