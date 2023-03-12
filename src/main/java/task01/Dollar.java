@@ -7,4 +7,5 @@ public class Dollar extends Currency{
     public double exchange(double sunExchange) {
         return RATE * sunExchange;
     }
+
 }

@@ -1,4 +1,4 @@
-package tsak02;
+package task02;
 
 public class LinearEquation extends Equation   {
     public double evaluate(int x) {

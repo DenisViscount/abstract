@@ -4,4 +4,5 @@ public abstract class Currency {
 
 
     public abstract double exchange(double sunExchange);
+
 }
