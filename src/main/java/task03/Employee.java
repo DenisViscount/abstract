@@ -10,7 +10,7 @@ public class Employee extends Person{
         printInfo();
     }
 
-    public void printInfo() {
+    private void printInfo() {
         System.out.println(name.toUpperCase() + " " + job.toUpperCase());
     }
 }
