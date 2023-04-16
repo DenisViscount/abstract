@@ -21,7 +21,7 @@ public class Main {
             }
         }
         if (gender == null){
-            System.out.println("Некорректный ввод пола");
+            System.out.println("Incorrect gender entry");
             return;
         }
         Human human = new Human(inputName,inputAge,gender);
