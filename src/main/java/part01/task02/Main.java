@@ -1,4 +1,4 @@
-package task02;
+package part01.task02;
 
 import java.io.FileReader;
 import java.io.IOException;

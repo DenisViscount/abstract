@@ -1,20 +1,16 @@
 package task01;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PersonNotFoundException {
+        InMemoryStorage inMemoryStorage = null;
 
-        try {
-            divideByZero();
+
+            Person person = inMemoryStorage.findPersonByName("John");
+
+        throw new PersonNotFoundException("Person with name '" + person.getName() + "' not found");
         }
-        catch (ArithmeticException e){
-            System.out.println("An error occurred due to division by zero" + e.getMessage());
-        }
+        
+
+
     }
 
-
-    public static void divideByZero(){
-        int a = 10;
-        int b = 0;
-        int result = a/b;
-    }
-}
